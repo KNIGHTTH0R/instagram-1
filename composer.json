@@ -1,0 +1,23 @@
+{
+    "name": "amdeeas/instagram",
+    "description": "Simple instagram features",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed johari",
+            "email": "amdeeas@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.4.0",
+        "amdeeas/object": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "am\\instagram\\": "src/"   
+        }
+    }
+}
